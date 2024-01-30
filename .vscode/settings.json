@@ -1,0 +1,19 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    "python.formatting.provider": "black",
+    "python.linting.pylintEnabled": false,
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": false,
+    "[python]": {
+        // "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnSave": true,
+        // "editor.wordBasedSuggestions": false
+    },
+    "python.analysis.extraPaths": ["."],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": false,
+        "**/__pycache__": true
+    }
+}

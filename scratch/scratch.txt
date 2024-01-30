@@ -1,0 +1,23 @@
+[
+    (
+        AgentActionMessageLog(
+            tool='official-kb',
+            tool_input='Circuit Probate Division procedures',
+            log='\nInvoking: `official-kb` with `Circuit Probate Division procedures`\n\n\n',
+            message_log=[
+                AIMessage(
+                    content='',
+                    additional_kwargs={
+                        'function_call': {'arguments': '{"__arg1":"Circuit Probate Division procedures"}', 'name': 'official-kb'}
+                    }
+                )
+            ]
+        ),
+        [
+            Document(page_content="Which 11th judicial circuit judges are 'Circuit Probate' division?\nYvonne Colodny, Jorge E. Cueto, Spencer Eig, Jose L. Fernandez, Bertila Soto", metadata={'answer': 'Yvonne Colodny, Jorge E. Cueto, Spencer Eig, Jose L. Fernandez, Bertila Soto', 'author': 'Tad Duval', 'batchId': '197ba0a0-3074-4b90-8372-c873a6142513', 'created_at': 'Wed Nov 29 2023 16:29:05 GMT-0500 (Eastern Standard Time)', 'link': 'https://www.jud11.flcourts.org/About-the-Court/Judges/Judicial-Directory', 'question': "Which 11th judicial circuit judges are 'Circuit Probate' division?", 'source': 'Eleventh Judicial Circuit Judicial Directory'}),
+            Document(page_content='Probate division (FL)\nDEPRIMO NATASHA, GILLESPIE KENNETH, LOPANE NICHOLAS', metadata={'answer': 'DEPRIMO NATASHA, GILLESPIE KENNETH, LOPANE NICHOLAS', 'author': 'Tad Duval', 'batchId': '037155dc-2bb7-48a8-ab6c-af688f4cec55', 'created_at': 'Wed Nov 29 2023 16:56:28 GMT-0500 (Eastern Standard Time)', 'link': 'https://www.17th.flcourts.org/judiciary-list-and-category/', 'question': 'Probate division (FL)', 'source': 'Seventeenth Judicial Circuit Judicial Directory'}),
+            Document(page_content="Which 17th judicial circuit judges are in the 'Probate' division?\nDEPRIMO NATASHA, GILLESPIE KENNETH, LOPANE NICHOLAS", metadata={'answer': 'DEPRIMO NATASHA, GILLESPIE KENNETH, LOPANE NICHOLAS', 'author': 'Tad Duval', 'batchId': '629fdc5d-94d3-4064-b952-ed9064c1548e', 'created_at': 'Wed Nov 29 2023 16:56:28 GMT-0500 (Eastern Standard Time)', 'link': 'https://www.17th.flcourts.org/judiciary-list-and-category/', 'question': "Which 17th judicial circuit judges are in the 'Probate' division?", 'source': 'Seventeenth Judicial Circuit Judicial Directory'}),
+            Document(page_content='Circuit-Criminal division (FL)\nDivision FQ In-Custody PM Docket, Division FS In-Custody Additional PM, Division FL In-Custody Change of Plea, First Appearance Zoom, ALSPECTOR SUSAN L., BAILEY TIM, BOBER BERNARD I., COLEMAN THOMAS J., DAVIS N. HUNTER, DUFFY BARBARA R., FARMER, Jr. GARY M., FEIN MARTIN S., Division FM In-Custody AM Docket, HOLDEN PETER, KOLLRA JR. ERNEST A., LEDEE FRANK, LYNCH MICHAEL, MERRIGAN EDWARD H., MURPHY III JOHN J., PORTH ARI ABRAHAM, ROTHSCHILD MICHAEL I., SIEGEL ANDREW L., UNASSIGNED, USAN MICHAEL A.', metadata={'answer': 'Division FQ In-Custody PM Docket, Division FS In-Custody Additional PM, Division FL In-Custody Change of Plea, First Appearance Zoom, ALSPECTOR SUSAN L., BAILEY TIM, BOBER BERNARD I., COLEMAN THOMAS J., DAVIS N. HUNTER, DUFFY BARBARA R., FARMER, Jr. GARY M., FEIN MARTIN S., Division FM In-Custody AM Docket, HOLDEN PETER, KOLLRA JR. ERNEST A., LEDEE FRANK, LYNCH MICHAEL, MERRIGAN EDWARD H., MURPHY III JOHN J., PORTH ARI ABRAHAM, ROTHSCHILD MICHAEL I., SIEGEL ANDREW L., UNASSIGNED, USAN MICHAEL A.', 'author': 'Tad Duval', 'batchId': '2abc5fbb-78ac-4141-8fb8-b742f6bded7f', 'created_at': 'Wed Nov 29 2023 16:56:23 GMT-0500 (Eastern Standard Time)', 'link': 'https://www.17th.flcourts.org/judiciary-list-and-category/', 'question': 'Circuit-Criminal division (FL)', 'source': 'Seventeenth Judicial Circuit Judicial Directory'})
+        ]
+    )
+]

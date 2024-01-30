@@ -1,0 +1,15 @@
+# - vvv vvv vvv --- vvv vvv
+#    Chat Message History - VectorStoreRetrieverMemory
+# - vvv vvv vvv --- vvv vvv
+embeddings = OpenAIEmbeddings()
+chat_history_index = Pinecone.from_existing_index(
+    "chat-history", embeddings
+)
+chat_history_retriever = chat_history_index.as_retriever(
+    search_kwargs=dict(k=1)
+)
+
+memory_key = "history"
+memory = VectorStoreRetrieverMemory(
+    retriever=chat_history_retriever, memory_key=memory_key
+)

@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "venv"
+version = "0.1.0"
+description = ""
+authors = ["tad dy <a@a.com>"]
+readme = "README.md"
+packages = [{include = "scripts"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.2.3"
+langchain = "0.0.348"
+openai = "^1.2.3"
+flask-cors = "^3.0.10"
+psycopg2-binary = "^2.9.9"
+langchainhub = "^0.1.13"
+python-dotenv = "^1.0.0"
+pydash = "^7.0.6"
+sentry-sdk = "^1.35.0"
+tiktoken = "^0.5.1"
+faiss-cpu = "^1.7.4"
+uuid = "^1.30"
+pinecone-client = "^2.2.4"
+flask-httpauth = "^4.8.0"
+langchain-experimental = "^0.0.45"
+numexpr = "^2.8.7"
+psycopg = "^3.1.14"
+
+[tool.poetry.scripts]
+main = "scripts:main"
+bpi = "scripts:build_pinecone_index"
+dpi = "scripts:delete_pinecone_index"
+api = "scripts:add_to_pinecone_index"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
